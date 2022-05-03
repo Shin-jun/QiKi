@@ -11,6 +11,10 @@
 		05AE1060281A691D00637AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE105F281A691D00637AC5 /* ContentView.swift */; };
 		05AE1062281A691E00637AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AE1061281A691E00637AC5 /* Assets.xcassets */; };
 		05AE1065281A691E00637AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AE1064281A691E00637AC5 /* Preview Assets.xcassets */; };
+		05AE106D281A805500637AC5 /* CategoryMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE106C281A805500637AC5 /* CategoryMenuView.swift */; };
+		05AE106F281A813000637AC5 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE106E281A813000637AC5 /* StudyView.swift */; };
+		05AE1071281BB5C900637AC5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE1070281BB5C900637AC5 /* ProfileView.swift */; };
+		05AE1076281FA29700637AC5 /* iOSCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE1075281FA29700637AC5 /* iOSCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		05AE105F281A691D00637AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05AE1061281A691E00637AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AE1064281A691E00637AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05AE106C281A805500637AC5 /* CategoryMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMenuView.swift; sourceTree = "<group>"; };
+		05AE106E281A813000637AC5 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		05AE1070281BB5C900637AC5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		05AE1075281FA29700637AC5 /* iOSCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,8 @@
 		05AE105C281A691D00637AC5 /* QiKi */ = {
 			isa = PBXGroup;
 			children = (
+				05AE106B281A801300637AC5 /* Views */,
 				05AE105D281A691D00637AC5 /* QiKiApp.swift */,
-				05AE105F281A691D00637AC5 /* ContentView.swift */,
 				05AE1061281A691E00637AC5 /* Assets.xcassets */,
 				05AE1063281A691E00637AC5 /* Preview Content */,
 			);
@@ -65,6 +73,42 @@
 				05AE1064281A691E00637AC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05AE106B281A801300637AC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05AE105F281A691D00637AC5 /* ContentView.swift */,
+				05AE1079281FCEA600637AC5 /* Profile */,
+				05AE1078281FCE9A00637AC5 /* Study */,
+				05AE1077281FCE8300637AC5 /* CategoryMenu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05AE1077281FCE8300637AC5 /* CategoryMenu */ = {
+			isa = PBXGroup;
+			children = (
+				05AE106C281A805500637AC5 /* CategoryMenuView.swift */,
+				05AE1075281FA29700637AC5 /* iOSCategory.swift */,
+			);
+			path = CategoryMenu;
+			sourceTree = "<group>";
+		};
+		05AE1078281FCE9A00637AC5 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				05AE106E281A813000637AC5 /* StudyView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		05AE1079281FCEA600637AC5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				05AE1070281BB5C900637AC5 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +183,10 @@
 			files = (
 				05AE1060281A691D00637AC5 /* ContentView.swift in Sources */,
 				05AE105E281A691D00637AC5 /* QiKiApp.swift in Sources */,
+				05AE1071281BB5C900637AC5 /* ProfileView.swift in Sources */,
+				05AE106F281A813000637AC5 /* StudyView.swift in Sources */,
+				05AE106D281A805500637AC5 /* CategoryMenuView.swift in Sources */,
+				05AE1076281FA29700637AC5 /* iOSCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
