@@ -1,13 +1,14 @@
 //
-//  iOSCategory.swift
+//  MLCategory.swift
 //  QiKi
 //
-//  Created by Shin yongjun on 2022/05/02.
+//  Created by Shin yongjun on 2022/05/06.
 //
+
 
 import SwiftUI
 
-struct iOSCategory: View {
+struct MLCategory: View {
     
     // 알람 상태 변수
     @State private var showingAlert = false
@@ -18,11 +19,11 @@ struct iOSCategory: View {
     var body: some View {
         VStack {
             Button(action: {
-                print("SwiftUI")
-                self.techCategory = "SwiftUI"
+                print("DNN")
+                self.techCategory = "DNN"
                 self.showingAlert = true
                 }) {
-                    Text("SwiftUI")
+                    Text("DNN")
                         .frame(minWidth: 0, idealWidth: 100, maxWidth: 300, minHeight: 0, idealHeight: 30, maxHeight: 30, alignment: .center)
                         .font(.system(size: 30))
                         .padding()
@@ -43,11 +44,11 @@ struct iOSCategory: View {
                 }
                 .padding(10)
             Button(action: {
-                print("UIKit")
+                print("CNN")
                 self.showingAlert = true
-                self.techCategory = "UIkit"
+                self.techCategory = "CNN"
                 }) {
-                    Text("UIkit")
+                    Text("CNN")
                         .frame(minWidth: 0, idealWidth: 100, maxWidth: 300, minHeight: 0, idealHeight: 30, maxHeight: 30, alignment: .center)
                         .font(.system(size: 30))
                         .padding()
@@ -66,11 +67,11 @@ struct iOSCategory: View {
                 }
                 .padding(10)
             Button(action: {
-                print("Object-C")
+                print("RNN")
                 self.showingAlert = true
-                self.techCategory = "Object-C"
+                self.techCategory = "RNN"
                 }) {
-                    Text("Object-C")
+                    Text("RNN")
                         .frame(minWidth: 0, idealWidth: 100, maxWidth: 300, minHeight: 0, idealHeight: 30, maxHeight: 30, alignment: .center)
                         .font(.system(size: 30))
                         .padding()
@@ -90,12 +91,12 @@ struct iOSCategory: View {
                 .padding(10)
             Spacer()
         }
-        .navigationTitle("iOS")
+        .navigationTitle("ML")
     }
 }
 
-struct iOSCategory_Previews: PreviewProvider {
+struct MLCategory_Previews: PreviewProvider {
     static var previews: some View {
-        iOSCategory()
+        MLCategory()
     }
 }

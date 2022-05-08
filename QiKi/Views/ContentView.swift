@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @AppStorage("saveTechCategory") var saveTechCategory : String = "SwiftUI"
+    
     enum Tabs: String {
         case menu = "메뉴"
         case study = "공부"
@@ -31,7 +33,7 @@ struct ContentView: View {
                     Text("메뉴")
                 }
             
-            StudyView()
+            StudyView(saveTechCategory: saveTechCategory)
                 .tabItem {
                     if tabSelection == Tabs.study {
                         Image(systemName: "book.closed.fill")
@@ -41,7 +43,7 @@ struct ContentView: View {
                     
                     Text("공부")
                 }
-            ProfileView()
+            Profile()
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("프로필")

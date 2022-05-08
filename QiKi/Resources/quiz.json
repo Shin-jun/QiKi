@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1001,
+        "cid": 1001,
+        "question": "Views는 앱의(       )를 선언하는데 사용하는 빌딩 블록입니다. 빈 칸에 알맞은 값은?",
+        "answerList": ["1. 사용자 인터페이스", "2. 사용자 컨버터", "3. 사용자 모델", "4. 사용자 뷰"],
+        "answer": 0
+    },
+    {
+        "id": 1002,
+        "cid": 1001,
+        "question": "SwiftUI는 뷰를 업데이트해야 할때마다 이 속성의 값을 읽습니다. 이 속성은?",
+        "answerList": ["1. Head", "2. Body", "3. didView", "4. willSet"],
+        "answer": 1
+    },
+    {
+        "id": 1003,
+        "cid": 1001,
+        "question": "두개의 텍스트보기를 세로로 쌓으려면 무엇이 필요할까요?",
+        "answerList": ["1. ZStack", "2. HStack", "3. VStack", "4. ZHeap"],
+        "answer": 2
+    },
+    {
+        "id": 1004,
+        "cid": 1001,
+        "question": "[ ] 는 특정 뷰에서 호출되는 메서드에 불과합니다. 이 메서드는 뷰 계층 구조에서 원본을 효과적으로 대체하는 변경된 새 뷰를 반환합니다. 빈칸에 알맞은 값은?",
+        "answerList": ["1. Views", "2. Method", "3. Protocol", "4. Modifier"],
+        "answer": 3
+    },
+    {
+        "id": 1005,
+        "cid": 1001,
+        "question": "이미지 보기가 보기의 크기와 일치하도록 이미지 표현을 조정하도록 지시하는 이미지 Modifier는?",
+        "answerList": ["1. aspectRatio()", "2. resizable()", "3. border()", "4. frame()"],
+        "answer": 1
+    },
+    {
+        "id": 1006,
+        "cid": 1001,
+        "question": "모든 뷰에 적용할 수 있는 재사용 가능한 Modifier를 만들려면 [ ] 프로토콜을 사용하면 된다.",
+        "answerList": ["1. ViewModifier", "2. ContentModifier", "3. StackModifier", "4. StateModifier"],
+        "answer": 0
+    },
+    {
+        "id": 1007,
+        "cid": 1001,
+        "question": "Text Input and Output중 다른 하나는?",
+        "answerList": ["1. Text", "2. Label", "3. TextSelectability", "4. TextField"],
+        "answer": 3
+    },
+    {
+        "id": 1008,
+        "cid": 1001,
+        "question": "이미지를 비동기적으로 로드하고 표시하는 view는?",
+        "answerList": ["1. syncImage", "2. ImageView", "3. AsyncImage", "4. ProgressView"],
+        "answer": 2
+    },
+    {
+        "id": 1009,
+        "cid": 1001,
+        "question": "날짜를 선택하기 위한 피커는?",
+        "answerList": ["1. Picker", "2. DatePicker", "3. ColorPicker", "4. PickerChu"],
+        "answer": 1
+    },
+    {
+        "id": 1010,
+        "cid": 1001,
+        "question": "해피~",
+        "answerList": ["1. 행복", "2. 행보케~", "3. 감자~", "4. 호호"],
+        "answer": 0
+    }
+]

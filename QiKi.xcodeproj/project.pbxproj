@@ -13,8 +13,20 @@
 		05AE1065281A691E00637AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AE1064281A691E00637AC5 /* Preview Assets.xcassets */; };
 		05AE106D281A805500637AC5 /* CategoryMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE106C281A805500637AC5 /* CategoryMenuView.swift */; };
 		05AE106F281A813000637AC5 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE106E281A813000637AC5 /* StudyView.swift */; };
-		05AE1071281BB5C900637AC5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE1070281BB5C900637AC5 /* ProfileView.swift */; };
 		05AE1076281FA29700637AC5 /* iOSCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE1075281FA29700637AC5 /* iOSCategory.swift */; };
+		05AE107D28211BD400637AC5 /* StudyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE107C28211BD400637AC5 /* StudyRowView.swift */; };
+		05AE108028211D8F00637AC5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE107F28211D8F00637AC5 /* Category.swift */; };
+		05AE108228211E7E00637AC5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE108128211E7E00637AC5 /* ModelData.swift */; };
+		05AE108528211F1800637AC5 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 05AE108428211F1800637AC5 /* category.json */; };
+		05AE1087282121F300637AC5 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 05AE1086282121F200637AC5 /* quiz.json */; };
+		05AE1089282189E900637AC5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE1088282189E900637AC5 /* Quiz.swift */; };
+		05AE108D2822463D00637AC5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE108C2822463D00637AC5 /* QuizView.swift */; };
+		05AE10AF28229EF700637AC5 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10AE28229EF700637AC5 /* FinalView.swift */; };
+		05AE10CE2823BDAA00637AC5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10CD2823BDAA00637AC5 /* Profile.swift */; };
+		05AE10D128242DB500637AC5 /* AOSCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10D028242DB500637AC5 /* AOSCategory.swift */; };
+		05AE10D328242E4200637AC5 /* MLCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10D228242E4200637AC5 /* MLCategory.swift */; };
+		05AE10D52824365F00637AC5 /* QuizRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10D42824365F00637AC5 /* QuizRowView.swift */; };
+		05AE10D8282460F800637AC5 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE10D7282460F800637AC5 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +37,21 @@
 		05AE1064281A691E00637AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05AE106C281A805500637AC5 /* CategoryMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMenuView.swift; sourceTree = "<group>"; };
 		05AE106E281A813000637AC5 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
-		05AE1070281BB5C900637AC5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		05AE1075281FA29700637AC5 /* iOSCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCategory.swift; sourceTree = "<group>"; };
+		05AE107C28211BD400637AC5 /* StudyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRowView.swift; sourceTree = "<group>"; };
+		05AE107F28211D8F00637AC5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		05AE108128211E7E00637AC5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		05AE108428211F1800637AC5 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = category.json; path = QiKi/Resources/category.json; sourceTree = SOURCE_ROOT; };
+		05AE1086282121F200637AC5 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		05AE1088282189E900637AC5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		05AE108C2822463D00637AC5 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		05AE10AE28229EF700637AC5 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		05AE10CD2823BDAA00637AC5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		05AE10CF2823BF9500637AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		05AE10D028242DB500637AC5 /* AOSCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOSCategory.swift; sourceTree = "<group>"; };
+		05AE10D228242E4200637AC5 /* MLCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCategory.swift; sourceTree = "<group>"; };
+		05AE10D42824365F00637AC5 /* QuizRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRowView.swift; sourceTree = "<group>"; };
+		05AE10D7282460F800637AC5 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +84,11 @@
 		05AE105C281A691D00637AC5 /* QiKi */ = {
 			isa = PBXGroup;
 			children = (
+				05AE10CF2823BF9500637AC5 /* Info.plist */,
 				05AE106B281A801300637AC5 /* Views */,
+				05AE107E28211D7700637AC5 /* Model */,
+				05AE108328211EBC00637AC5 /* Resources */,
+				05AE10D6282460D400637AC5 /* Notification */,
 				05AE105D281A691D00637AC5 /* QiKiApp.swift */,
 				05AE1061281A691E00637AC5 /* Assets.xcassets */,
 				05AE1063281A691E00637AC5 /* Preview Content */,
@@ -79,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				05AE105F281A691D00637AC5 /* ContentView.swift */,
-				05AE1079281FCEA600637AC5 /* Profile */,
+				05AE10CC2823BD9D00637AC5 /* Profile */,
 				05AE1078281FCE9A00637AC5 /* Study */,
 				05AE1077281FCE8300637AC5 /* CategoryMenu */,
 			);
@@ -91,6 +120,8 @@
 			children = (
 				05AE106C281A805500637AC5 /* CategoryMenuView.swift */,
 				05AE1075281FA29700637AC5 /* iOSCategory.swift */,
+				05AE10D028242DB500637AC5 /* AOSCategory.swift */,
+				05AE10D228242E4200637AC5 /* MLCategory.swift */,
 			);
 			path = CategoryMenu;
 			sourceTree = "<group>";
@@ -99,16 +130,47 @@
 			isa = PBXGroup;
 			children = (
 				05AE106E281A813000637AC5 /* StudyView.swift */,
+				05AE107C28211BD400637AC5 /* StudyRowView.swift */,
+				05AE108C2822463D00637AC5 /* QuizView.swift */,
+				05AE10AE28229EF700637AC5 /* FinalView.swift */,
+				05AE10D42824365F00637AC5 /* QuizRowView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
 		};
-		05AE1079281FCEA600637AC5 /* Profile */ = {
+		05AE107E28211D7700637AC5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				05AE1070281BB5C900637AC5 /* ProfileView.swift */,
+				05AE108128211E7E00637AC5 /* ModelData.swift */,
+				05AE107F28211D8F00637AC5 /* Category.swift */,
+				05AE1088282189E900637AC5 /* Quiz.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05AE108328211EBC00637AC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05AE108428211F1800637AC5 /* category.json */,
+				05AE1086282121F200637AC5 /* quiz.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05AE10CC2823BD9D00637AC5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				05AE10CD2823BDAA00637AC5 /* Profile.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		05AE10D6282460D400637AC5 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				05AE10D7282460F800637AC5 /* LocalNotificationManager.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AE108528211F1800637AC5 /* category.json in Resources */,
 				05AE1065281A691E00637AC5 /* Preview Assets.xcassets in Resources */,
+				05AE1087282121F300637AC5 /* quiz.json in Resources */,
 				05AE1062281A691E00637AC5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,8 +246,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AE1060281A691D00637AC5 /* ContentView.swift in Sources */,
+				05AE10CE2823BDAA00637AC5 /* Profile.swift in Sources */,
 				05AE105E281A691D00637AC5 /* QiKiApp.swift in Sources */,
-				05AE1071281BB5C900637AC5 /* ProfileView.swift in Sources */,
+				05AE10D128242DB500637AC5 /* AOSCategory.swift in Sources */,
+				05AE10D52824365F00637AC5 /* QuizRowView.swift in Sources */,
+				05AE108D2822463D00637AC5 /* QuizView.swift in Sources */,
+				05AE10D8282460F800637AC5 /* LocalNotificationManager.swift in Sources */,
+				05AE10AF28229EF700637AC5 /* FinalView.swift in Sources */,
+				05AE108228211E7E00637AC5 /* ModelData.swift in Sources */,
+				05AE108028211D8F00637AC5 /* Category.swift in Sources */,
+				05AE107D28211BD400637AC5 /* StudyRowView.swift in Sources */,
+				05AE1089282189E900637AC5 /* Quiz.swift in Sources */,
+				05AE10D328242E4200637AC5 /* MLCategory.swift in Sources */,
 				05AE106F281A813000637AC5 /* StudyView.swift in Sources */,
 				05AE106D281A805500637AC5 /* CategoryMenuView.swift in Sources */,
 				05AE1076281FA29700637AC5 /* iOSCategory.swift in Sources */,
@@ -318,9 +392,9 @@
 				DEVELOPMENT_TEAM = TZPPZDYCQY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QiKi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,9 +421,9 @@
 				DEVELOPMENT_TEAM = TZPPZDYCQY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QiKi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
